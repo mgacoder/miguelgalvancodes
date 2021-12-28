@@ -1,28 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  font-size:xx-large;
-  font-weight:800;
-  color: white;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-  background: url('../public/websitephoto.jpg');
-  
+/******** NAVBAR CSS ********/
+/* nav{
+    position:fixed;
+} */
+nav{
+    position: fixed;
+    width:100%;
+    background-color:sandybrown;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul{
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 50%;
+    margin: 0px auto;
+    padding: 0;
 }
 
-.App{
-  position: absolute;
-  top: 50%;
-  transform: translate(0, -50%);
-  padding: 10px;
-  width: 100%;
+li{
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    background: #fafafa;
 }
 
+div{
+    height:100vh;
+}
+
+.photos-container{
+    background-color: red;
+}
+
+.contact-container{
+    background-color: orange
+}
+
+.projects-container{
+    background-color: yellow;
+}
+
+.resume-container{
+    background-color: green;
+
+}
+
+.home-container{
+    background-color: purple;
+}

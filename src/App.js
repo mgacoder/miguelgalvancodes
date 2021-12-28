@@ -1,12 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import { Navbar, Home, Resume, Projects, Photos, Contact } from './components'
 
 function App() {
   return (
-    <div className="App">
-      <h1>once i build this website</h1>
-      <h1>it's game over for you bitches</h1>
-    </div>
+    <>
+      <Navbar></Navbar>
+      <Home></Home>
+      <Resume></Resume>
+      <Projects></Projects>
+      <Photos></Photos>
+      <Contact></Contact>
+    </>
   );
 }
 
