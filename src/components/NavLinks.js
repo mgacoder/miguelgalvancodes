@@ -1,14 +1,15 @@
 import Link from 'react-scroll/modules/components/Link';
 
-const NavLinks = () => {
+const NavLinks = (props) => {
     return ( 
         <ul>
-                <li>
+                <li >
                     <Link
                         activeClass='active' 
                         to='home'
                         spy={true}
                         smooth={true}
+                        onClick={() => props.isMobile && props.closeMobileNav()}
                     >
                         home
                     </Link>
@@ -19,6 +20,7 @@ const NavLinks = () => {
                         to='resume'
                         spy={true}
                         smooth={true}
+                        onClick={() => props.isMobile && props.closeMobileNav()}
                     >
                         resume
                     </Link>
@@ -29,6 +31,7 @@ const NavLinks = () => {
                         to='projects'
                         spy={true}
                         smooth={true}
+                        onClick={() => props.isMobile && props.closeMobileNav()}
                     >
                         projects
                     </Link>
@@ -39,6 +42,7 @@ const NavLinks = () => {
                         to='photos'
                         spy={true}
                         smooth={true}
+                        onClick={() => props.isMobile && props.closeMobileNav()}
                     >
                         photos
                     </Link>
@@ -49,6 +53,7 @@ const NavLinks = () => {
                         to='contact'
                         spy={true}
                         smooth={true}
+                        onClick={() => props.isMobile && props.closeMobileNav()}
                     >
                         contact
                     </Link>

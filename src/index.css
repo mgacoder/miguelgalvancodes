@@ -12,7 +12,9 @@ nav{
     min-height: auto;
     background-color: #f2f3f4;
 }
-
+a{
+    background-color: #f2f3f4;
+}
 ul{
     display: flex;
     align-items: stretch; /* Default */
@@ -83,13 +85,16 @@ div{
         position: absolute;
         left: 5%;
         cursor: pointer;
+        top:10px;
     }
-
+    .nav-container{
+        top:10px;
+    }
     ul{
         display:flex;
         flex-direction: column;
         position: absolute;
-        top: 15px;
+        top: 60px;
         left:5%;
         cursor: pointer;
     }   
