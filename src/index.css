@@ -2,72 +2,84 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f8f8ff;
   }
 
 /******** NAVBAR CSS ********/
-/* .nav-container .mobile-nav{
-    display: none;
-} */
-
 nav{
     position: fixed;
     width:100%;
-    background-color:sandybrown;
+    min-height: auto;
+    background-color: #f2f3f4;
 }
 
 ul{
     display: flex;
     align-items: stretch; /* Default */
     justify-content: space-between;
-    width: 50%;
+    max-width: 500px;
+    min-height: 65px;
     margin: 0px auto;
     padding: 0;
+    background-color: #f2f3f4; 
+    cursor: pointer;
+    
 }
 
 li{
     display: block;
     flex: 0 1 auto; /* Default */
+    line-height: 65px;
     list-style-type: none;
-    background: #fafafa;
+    background: #f2f3f4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+    color:#2C394B;
 }
 
 div{
     height:100vh;
 }
 
+
+
 .photos-container{
-    background-color: red;
+    /* background-color: red; */
 }
 
 .contact-container{
-    background-color: orange
+    /* background-color: orange */
 }
 
 .projects-container{
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .resume-container{
-    background-color: green;
+    /* background-color: green; */
 
 }
 
 .home-container{
-    background-color: purple;
+    /* background-color: purple; */
 }
 
 .mobile-nav{
     display:none;
 }
 
-@media (max-width: 500px){
+
+
+
+
+@media (max-width: 590px){
     .nav-container .desktop-nav{
         display: none;
     }
 
     .nav-container .mobile-nav{
         display: flex;
-        background-color: red;
+        /* background-color: red; */
         position: absolute;
         left: 5%;
         cursor: pointer;
@@ -78,7 +90,8 @@ div{
         flex-direction: column;
         position: absolute;
         top: 15px;
-        left:5%
+        left:5%;
+        cursor: pointer;
     }   
 
 }
