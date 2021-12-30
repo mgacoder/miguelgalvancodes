@@ -1,10 +1,7 @@
-import React from 'react'
-
 const Contact = () => {
-    return (
-        <div className='contact-container' id='contact'>
-            Contact
-        </div>
-    )
+    return ( 
+        <div></div>
+     );
 }
-export default Contact
+ 
+export default Contact;

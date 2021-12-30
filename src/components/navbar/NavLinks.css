@@ -1,0 +1,9 @@
+.link{
+    display: inline;
+    margin: 10%;
+    background-color: #f8f8ff;
+}
+.linkContainer{
+    position:fixed;
+    background-color: #f8f8ff;
+}

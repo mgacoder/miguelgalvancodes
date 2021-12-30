@@ -1,16 +1,18 @@
-
 import './App.css';
-import { Navbar, Home, Resume, Projects, Photos, Contact } from './components'
+import NavBar from './components/navbar/NavBar';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
+import Photos from './components/Photos';
+import Home from './components/Home';
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
-      <Home></Home>
-      <Resume></Resume>
-      <Projects></Projects>
-      <Photos></Photos>
-      <Contact></Contact>
+      <NavBar/>
+      <Home/>
+      <Projects/>
+      <Resume/>
+      <Photos/>
     </>
   );
 }

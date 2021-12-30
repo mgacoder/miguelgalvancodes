@@ -1,11 +1,7 @@
-import React from 'react'
-
 const Photos = () => {
-    return (
-        <div className='photos-container' id='photos'>
-            Photos
-        </div>
-    )
+    return ( 
+        <div className='photosContainer' id='photos'></div>
+     );
 }
-
-export default Photos
+ 
+export default Photos;

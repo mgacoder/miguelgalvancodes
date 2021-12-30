@@ -1,9 +1,0 @@
-export { default as Contact }   from './Contact';
-export { default as DesktopNav }   from './DesktopNav';
-export { default as Home }      from './Home';
-export { default as MobileNav } from './MobileNav';
-export { default as Navbar }    from './Navbar';
-export { default as NavLinks }  from './NavLinks';
-export { default as Photos }    from './Photos';
-export { default as Projects }  from './Projects';
-export { default as Resume }    from './Resume';

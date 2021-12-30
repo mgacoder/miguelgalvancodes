@@ -1,11 +1,7 @@
-import React from 'react'
-
-const Resume = () => {
-    return (
-        <div className='resume-container' id='resume'>
-            Resume
-        </div>
-    )
+const Resumer = () => {
+    return ( 
+        <div className='resumeContainer' id='resume'></div>
+     );
 }
-
-export default Resume 
+ 
+export default Resumer;
