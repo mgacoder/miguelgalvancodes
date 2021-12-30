@@ -5,9 +5,10 @@
   }
 
 /******** NAVBAR CSS ********/
-/* nav{
-    position:fixed;
+/* .nav-container .mobile-nav{
+    display: none;
 } */
+
 nav{
     position: fixed;
     width:100%;
@@ -53,4 +54,31 @@ div{
 
 .home-container{
     background-color: purple;
+}
+
+.mobile-nav{
+    display:none;
+}
+
+@media (max-width: 500px){
+    .nav-container .desktop-nav{
+        display: none;
+    }
+
+    .nav-container .mobile-nav{
+        display: flex;
+        background-color: red;
+        position: absolute;
+        left: 5%;
+        cursor: pointer;
+    }
+
+    ul{
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        top: 15px;
+        left:5%
+    }   
+
 }
