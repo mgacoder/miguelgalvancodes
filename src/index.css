@@ -4,25 +4,38 @@
     box-sizing: border-box;
     background-color: #Fdfcfc;
     font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-  }
-  h1{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+background-color: #f8f8ff;
+}
+a{
     background-color: #f8f8ff;
-  }
-  a{
-      background-color: #f8f8ff;
-  }
-  .projectsContainer{
+}
+.projectsContainer{
+    height: 100vh;
+}
+.resumeContainer{
+    height: 100vh;
+}
+.photosContainer{
+    height: 100vh;
+}
+.homeContainer{
+    height: 100vh;
+    background-image:url('./img/homeBackground.jpeg');
+    opacity: .25;
     
-  }
-  .resumeContainer{
-      
-  }
-  .photosContainer{
-      
-  }
-  .homeContainer{
-      
-  }
+}
+
+@media (max-width:820px){
+    *{
+        background-color: saddlebrown;
+    }
+}
+
+
+
 /* ******* NAVBAR CSS *******
 nav{
     position: fixed;
@@ -56,62 +69,6 @@ li{
     font-size: 150%;
     color:#2C394B;
 }
-
-.photos-container{
-    
-
-.contact-container{
-   
-}
-
-.phoneLogo{
-    float:left; 
-    display:inline; 
-}
-.phoneNumber{
-    float:left; 
-    display:inline; 
-
-}
-
-.emailLogo{
-    float:left; 
-    display:inline; 
-}
-.email{
-    float:left; 
-    display:inline; 
-}
-
-.socialLogo{
-    float:left; 
-    display:inline; 
-}
-.social{
-    float:left; 
-    display:inline; 
-}
-
-.projects-container{
-    /* background-color: yellow; 
-}
-
-.resume-container{
-    /* background-color: green; 
-
-}
-
-.home-container{
-    height: 50vh;
-}
-
-.mobile-nav{
-    display:none;
-}
-
-
-
-
 
 @media (max-width: 590px){
     .nav-container .desktop-nav{

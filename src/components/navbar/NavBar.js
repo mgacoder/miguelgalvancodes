@@ -11,7 +11,7 @@ const NavBar = () => {
                                         spy={true}
                                         smooth={true}
                                         >
-                                        <h1>Miguel Galvan</h1>
+                                        <h1 className='logo'>Miguel Galvan</h1>
                                         </Link></div>
         <div className='rightContainer'><NavLinks/></div>
         </div>
